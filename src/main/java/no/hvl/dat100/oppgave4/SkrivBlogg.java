@@ -7,11 +7,20 @@ import no.hvl.dat100.oppgave3.*;
 
 public class SkrivBlogg {
 	
-	//Brukte hjelp fra chattGPT
 
-	public static boolean skriv(Blogg samling, String mappe, String filnavn) {
+	public static boolean skriv(Blogg samling, String mappe, String filnavn)  {
 		
-        File fil = new File(mappe, filnavn);
+//		File nyFil = new File(mappe,filnavn);
+//		
+//		PrintWriter navn1 = new PrintWriter(nyFil);
+//		
+//		navn1.println(samling.toString());
+//		
+//		navn1.close();
+//		
+//		return true; }}
+		
+        File fil = new File(mappe,filnavn);
 
         try (PrintWriter writer = new PrintWriter(fil)) {
        

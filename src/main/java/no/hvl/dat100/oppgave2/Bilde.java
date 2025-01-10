@@ -4,10 +4,7 @@ import no.hvl.dat100.common.TODO;
 
 public class Bilde extends Tekst {
 
-	private int id;
-	private String bruker;
-	private String dato;
-	private int likes;
+	
 	private String url;
 	
 	public Bilde(int id, String bruker, String dato, String tekst, String url) {
